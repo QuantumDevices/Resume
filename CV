@@ -1,9 +1,0 @@
-cd Code
-mkdir CV && cd
-git init
-git config --global user.name "你的用户名"
-git config --global user.email "你的邮箱地址"
-wget http://labfile.oss.aliyuncs.com/courses/624/cv-template.zip
-unzip cv-template
-mv cv-template/*
-rm -rf cv-template* __MACOSX*
